@@ -8,17 +8,19 @@ module.exports = {
 	repositories: ["open-source-issues/renovate-submodule"],
 	packageRules: [
 		{
-			description: "lockFileMaintenance",
-			matchUpdateTypes: [
-				"pin",
-				"digest",
-				"patch",
-				"minor",
-				"major",
-				"lockFileMaintenance",
-			],
-			dependencyDashboardApproval: false,
-			stabilityDays: 0,
+			updateTypes: ["patch", "minor"],
+			groupName: "non-major.versions",
+		},
+		{
+			updateTypes: ["pin", "digest"],
+			groupName: "pin and digest",
 		},
 	],
+	"git-submodules": {
+		enabled: true,
+		groupName: "Git Submodules",
+	},
+	labels: ["renovate"],
+	pinDigests: true,
+	ignoreTests: true,
 };
