@@ -1,0 +1,3 @@
+[submodule "renovate-submodule-include"]
+	path = renovate-submodule-include
+	url = ../renovate-submodule-include
