@@ -3,12 +3,6 @@
 	"git-submodules": {
 		"enabled": true
 	},
-	"packageRules": [
-		{
-			"updateTypes": ["patch", "minor", "pin", "digest"],
-			"groupName": "non-major.versions"
-		}
-	],
 	"pinDigests": true,
 	"ignoreTests": true
 }
