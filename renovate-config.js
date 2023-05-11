@@ -5,7 +5,6 @@ module.exports = {
 	onboarding: false,
 	platform: "github",
 	includeForks: true,
-	dryRun: "full",
 	repositories: ["open-source-issues/renovate-submodule"],
 	packageRules: [
 		{
