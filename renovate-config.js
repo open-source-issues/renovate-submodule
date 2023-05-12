@@ -12,8 +12,8 @@ module.exports = {
 			groupName: "non-major.versions",
 		},
 		{
-			updateTypes: ["pin", "digest"],
-			groupName: "pin and digest",
+			updateTypes: ["digest"],
+			groupName: "digest",
 		},
 	],
 	"git-submodules": {

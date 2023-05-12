@@ -1,10 +1,3 @@
 {
-	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"ignoreUnstable": false,
-	"packageRules": [
-		{
-			"updateTypes": ["patch", "minor", "pin", "digest"],
-			"groupName": "non-major.versions"
-		}
-	]
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json"
 }
